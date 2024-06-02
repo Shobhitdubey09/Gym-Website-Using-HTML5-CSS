@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shobhit Gym Website</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <style>
+        body {
+            background-image: url('https://cdn.pixabay.com/photo/2016/11/22/22/25/abs-1850926_1280.jpg');
+            margin: 0px;
+            padding: 0px;
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-size: cover;
+            background-attachment: fixed;
+         }
+         .left{
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            top: 20px;
+            left: 60px;
+         }
+         .left img{
+            display: block;
+            width: 89px;
+            margin: auto;
+            /* filter: invert(100%); */
+         }
+         .left div{
+            line-height: 19px;
+            font-size: 22px;
+            text-align: center;
+         }
+         .mid{
+            display: block ;
+            margin: 3px 523px;
+            /* position: absolute; */
+            /* top: 20px; */
+            /* right: 60px; */
+            /* border: 2px solid red; */
+         width: 500px;
+            /* margin: 29px,auto; */
+         }
+         .right{
+            display: inline-block;
+            /* border: 2px solid red; */
+            position: absolute;
+            right: 32px;
+            top: 20px;
+         }
+         .navbar{
+            display: inline-block;
+         }
+         .navbar li{
+            display: inline-block;
+            font-size: 20px;
+           
+         }
+         .navbar li a{
+            display: inline-block;
+            color: white;
+            padding: 3px 7px;
+            text-decoration: none;
+         }
+         .navbar li a:hover, .navbar li a :active{
+            text-decoration: underline;
+            color: rgb(33, 101, 10);
+         }
+         .btn{
+            background-color: beige;
+            color: grey;
+            /* border: 2px solid red; */
+            margin: 0px 1px;
+            border-radius: 10px;
+            padding: 3px 0px;
+            font-size: 18px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            cursor: pointer;
+         }
+         .btn:hover {
+        background-color: rgb(104, 71, 18);
+    }
+    .container{
+        /* border: 2px solid yellow; */
+    border-radius: 10px;
+    padding: 75px;
+    margin: 94px 2px;
+    width: 499px;
+    position: absolute;
+    right: 1px;
+    }
+    .formgroup{
+        font-family: 'Times New Roman', Times, serif;
+        display: block;
+        text-align: center;
+        margin: 1px auto;
+        padding: 10px;
+        font-size: 20px;
+        border-radius: 10px;
+        width: 508px;
+        /* border: 2px solid green; */
+    }
+     .container h1{
+        text-align: center;
+    }
+    .container h1{
+        display:inline-block ;
+        width: 500px;
+    }
+    .container button{
+        display: block;
+        margin: 10px 205px;
+        width: 115px;
+    }
+    .container input:hover{
+        background-color: rgb(107, 47, 47);
+        cursor: pointer;
+        color: darkkhaki;
+    }
+    .left div:hover{
+        cursor: pointer;
+        background-color: gray;
+    }
+    .container h1{
+        font-weight: bold;
+    }
+    input::placeholder{
+        text-align: center;
+    }
+
+    </style>
+
+</head>
+
+<body>
+    <header class="heading">
+        <div class="left">
+            <div>Shobhit Fitness Club</div>
+            <img src="https://cdn.pixabay.com/photo/2016/03/31/19/34/black-1295124_1280.png" alt="">
+        </div>
+        <div class="mid">
+               <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email Us</button>
+        </div>
+        <div class="container">
+            <h1>Join The Best Gym Of India</h1>
+            <form action="action.php">
+                <div class="formgroup">
+                    <input type="text" placeholder="Enter You Name" name="" id="">
+                </div>
+                <div class="formgroup">
+                    <input type="text" placeholder="Enter Your Age" name="" id="">
+                </div>
+                <div class="formgroup">
+                    <input type="text" placeholder="Enter Your Gender" name="" id="">
+                </div>
+                <div class="formgroup">
+                    <input type="text" placeholder="Enter Your Locality" name="" id="">
+                </div>
+                <div class="formgroup">
+                    <input type="text" placeholder="Enter Your Phone No" name="" id="">
+                </div>
+                <div class="formgroup">
+                    <input type="text" placeholder="Enter Your Mail Id" name="" id="">
+                </div>
+                <button class="btn">Submit now</button>
+    
+            </form>
+        </div>
+    </header>
+
+</body>
+
+</html>

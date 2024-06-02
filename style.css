@@ -1,0 +1,124 @@
+/* THIS IS ONLY CSS CODE IN THIS FILE AND YOU WILL GET BOTH THE HTML & CSS CODE IN INDEX.HTML FILE */
+ body {
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/22/22/25/abs-1850926_1280.jpg');
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+ .left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+ }
+ .left img{
+    display: block;
+    width: 89px;
+    margin: auto;
+    /* filter: invert(100%); */
+ }
+ .left div{
+    line-height: 19px;
+    font-size: 22px;
+    text-align: center;
+ }
+ .mid{
+    display: block ;
+    margin: 3px 523px;
+    /* position: absolute; */
+    /* top: 20px; */
+    /* right: 60px; */
+    /* border: 2px solid red; */
+ width: 500px;
+    /* margin: 29px,auto; */
+ }
+ .right{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    right: 32px;
+    top: 20px;
+ }
+ .navbar{
+    display: inline-block;
+ }
+ .navbar li{
+    display: inline-block;
+    font-size: 20px;
+   
+ }
+ .navbar li a{
+    display: inline-block;
+    color: white;
+    padding: 3px 7px;
+    text-decoration: none;
+ }
+ .navbar li a:hover, .navbar li a :active{
+    text-decoration: underline;
+    color: rgb(33, 101, 10);
+ }
+ .btn{
+    background-color: beige;
+    color: grey;
+    /* border: 2px solid red; */
+    margin: 0px 1px;
+    border-radius: 10px;
+    padding: 3px 0px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+ }
+ .btn:hover {
+background-color: rgb(104, 71, 18);
+}
+.container{
+/* border: 2px solid yellow; */
+border-radius: 10px;
+padding: 75px;
+margin: 94px 2px;
+width: 499px;
+position: absolute;
+right: 1px;
+}
+.formgroup{
+font-family: 'Times New Roman', Times, serif;
+display: block;
+text-align: center;
+margin: 1px auto;
+padding: 10px;
+font-size: 20px;
+border-radius: 10px;
+width: 508px;
+/* border: 2px solid green; */
+}
+.container h1{
+text-align: center;
+}
+.container h1{
+display:inline-block ;
+width: 500px;
+}
+.container button{
+display: block;
+margin: 10px 205px;
+width: 115px;
+}
+.container input:hover{
+background-color: rgb(107, 47, 47);
+cursor: pointer;
+color: darkkhaki;
+}
+.left div:hover{
+cursor: pointer;
+background-color: gray;
+}
+.container h1{
+font-weight: bold;
+}
+input::placeholder{
+text-align: center;
+}
